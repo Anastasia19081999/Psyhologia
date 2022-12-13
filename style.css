@@ -1,0 +1,158 @@
+
+body {
+    position: static;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    margin: 0 auto;
+    background-color: rgba(45, 112, 83, 1);
+    width: 752px;
+    height: 237px;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+}
+
+.decor {
+    width: 144px;
+    height: 144px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 37px;
+    margin-top: 46px;
+    margin-bottom: 47px;
+
+}
+.text {
+    border: 1px solid rgba(45, 112, 83, 1);
+    width: 134px;
+    height: 131px;
+    font-size: 30px;
+    margin-left: 57px;
+    margin-top: 53px;
+    margin-bottom: 53px;
+}
+.div-menu {
+    border: 1px solid  rgba(45, 112, 83, 1);
+    margin-left: 249px;
+    margin-right: 44px;
+}
+.menu { 
+    
+    width: 87px;
+    height: 15px;
+    background-color: white;
+    margin-bottom: 13px;
+}
+
+.section1 {
+    border: 0.5px solid rgba(245, 222, 179, 0);
+    background-image: url(./image/room.png);
+    width: 750px;
+    height: 440px;
+    margin: 0 auto;
+
+}
+
+.button1 {
+    width: 344px;
+    height: 77px;
+    font-size: 24px;
+    color: white;
+    background-color: rgba(203, 146, 35, 1);
+    margin: 343px 204px 25px 195px;
+    display: block;
+    border: 0;
+    padding: 0;
+
+}
+.section2 {
+    background-color: rgb(241, 236, 236);
+    margin: 0 auto;
+    width: 752px;
+    height: 1069px;
+    
+}
+.article1 {
+    display: flex;
+}
+
+.photo {
+    object-fit: fill;
+    width: 255px;
+    height: 276px;
+    border-radius: 50%;
+    margin-top: 79px;
+    margin-left: 43px;
+}
+.info {
+    margin-top: 155px;
+    margin-left: 68px;
+}
+.name {
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 29px;
+    font-weight: normal;
+    
+}
+.text2 {
+    font-size: 24px;
+}
+.text3 {
+    font-size: 24px;
+    margin: 46px 126px 0px 36px;
+}
+.reasons {
+    font-size: 36px;
+    font-weight: 500;
+    margin: 46px 171px 0px 36px;
+}
+ul {
+    list-style: none;
+}
+ul li:before {
+    content:  "-";
+    position: relative;
+    left:     -5px;
+}
+.lists {
+    font-size: 24px;
+    margin: 43px 0px 0px 36px;
+    padding: 0;
+}
+.button2 {
+    width: 344px;
+    height: 77px;
+    font-size: 24px;
+    color: white;
+    background-color: rgba(203, 146, 35, 1);
+    margin: 42px 200px 0px 208px;
+    display: block;
+    border: 0;
+    padding: 0;
+}
+
+.footer {
+    background-color: rgba(136, 136, 136, 1);
+    border: 1px solid rgba(136, 136, 136, 1);
+    width: 752px;
+    height: 156px;
+    margin: 0 auto;
+}
+.nomber {
+    display: flex;
+}
+/* .two {
+    display: flex;
+} */
+.decor1 {
+    width: 99px;
+    height: 99px;
+    background-color: white;
+    border-radius: 50%;
+    /* display: flex; */
+    margin: 29px 609px 28px 44px;
+}

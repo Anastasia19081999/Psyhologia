@@ -145,14 +145,39 @@ ul li:before {
 .nomber {
     display: flex;
 }
-/* .two {
-    display: flex;
-} */
+
 .decor1 {
     width: 99px;
     height: 99px;
     background-color: white;
     border-radius: 50%;
-    /* display: flex; */
-    margin: 29px 609px 28px 44px;
+    margin-top: 29px;
+    margin-left: 44px;
+}
+.tel {
+    margin-top: 58px;
+    margin-right: 45px;
+    margin-left: 428px;
+    font-size: 18px;
+    color: white;
+
+}
+
+.mail {
+    display: flex;
+
+}
+
+.adres {
+    margin-left: 326px;
+    margin-bottom: 35px;
+    font-size: 18px;
+    color: white;
+}
+.gmail {
+    margin-bottom: 35px;
+    margin-left: 38px;
+    font-size: 18px;
+    color: white;
+
 }
